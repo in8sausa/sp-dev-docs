@@ -63,6 +63,7 @@ Alternatively, you can use the [Office 365 CLI](https://sharepoint.github.io/off
 > ```
 >
 > Alternatively, if you are using the Office 365 CLI, you must first connect to your tenant using the `spo connect` command.
+> We need to have the site collection admin rights to tenant app catalog site
 
 To create a site collection app catalog, use the `Add-SPOSiteCollectionAppCatalog` cmdlet passing the site collection where the app catalog should be created as the `-Site` parameter.
 
